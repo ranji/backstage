@@ -19,7 +19,7 @@ metadata:
     lighthouse.com/website-url: https://backstage.io
 spec:
   type: openapi
-  owner: CNCF
+  owner: Ranji
   lifecycle: production
   definition: |
     openapi: 3.1.0
@@ -35,17 +35,7 @@ info:
     url: http://www.apache.org/licenses/LICENSE-2.0.html
   x-logo:
     url: https://redocly.github.io/openapi-template/logo.png
-  description: >
-    This is an **example** API to demonstrate features of the OpenAPI
-    specification.
-
-
-    # Introduction
-
-
-    This API definition is intended to to be a good starting point for
-
-    describing your API 
+  
 tags:
   - name: EGV
     description: Example echo operations.
@@ -68,13 +58,6 @@ paths:
       tags:
         - EGV
       summary: GET /egvs
-      description: >
-        # Description
-
-
-        The **/egvs** endpoint enables retrieval of a user's estimated glucose
-        value (EGV) data, including trend and status information.
-        [here](https://developer.dexcom.com/get-egvs-v1).
       operationId: getEgvs
       responses:
         '200':
