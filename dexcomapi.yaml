@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: dexcom-developer
   description: |
     Dexcom dev api
   links:
     - title: Website
-      url: http://backstage.io
+      url: http://developer.dexcom.com
     - title: Documentation
-      url: https://backstage.io/docs
+      url: https://developer.dexcom.com/docs
     - title: Storybook
       url: https://backstage.io/storybook
     - title: Discord Chat
