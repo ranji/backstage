@@ -1,12 +1,14 @@
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Component
 metadata:
-  name: dexcom-api
-  description: Retrieve CGM data
+  name: artist-web
+  description: The place to be, for great artists
 spec:
-  type: openapi
+  type: website
   lifecycle: production
-  owner: dexcom-api-team
-  system: partner-engagement-portal
-  definition: 
-     $text: https://api.apis.guru/v2/specs/spotify.com/v1/swagger.yaml
+  owner: artist-relations-team
+  system: artist-engagement-portal
+  dependsOn:
+    - resource:default/artists-db
+  providesApis:
+    - artist-api
