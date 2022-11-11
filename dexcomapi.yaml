@@ -8,4 +8,5 @@ spec:
   lifecycle: production
   owner: dexcom-api-team
   system: partner-engagement-portal
-  definition: https://api.redocly.com/registry/bundle/dexcom/Dexcom%20API/v2/openapi.yaml?branch=API-1936-add-redocly-api-registry
+  definition: 
+     $text: https://api.redocly.com/registry/bundle/dexcom/Dexcom%20API/v2/openapi.yaml?branch=API-1936-add-redocly-api-registry
